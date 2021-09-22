@@ -53977,11 +53977,6 @@
 	      if (_lb.LoopBackConfig.debuggable()) console.count(arg);
 	    }
 	  }, {
-	    key: 'profileEnd',
-	    value: function profileEnd() {
-	      if (_lb.LoopBackConfig.debuggable()) console.profileEnd();
-	    }
-	  }, {
 	    key: 'time',
 	    value: function time(arg) {
 	      if (_lb.LoopBackConfig.debuggable()) console.time(arg);

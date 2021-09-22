@@ -46,3 +46,6 @@ typings
 #Generated test code
 tests/ng2web/src/app/shared/sdk
 tests/react-web/app/shared/sdk
+
+#Comparing to modified previous version
+@mean-expert
