@@ -2,6 +2,10 @@
 
 This file is created to keep history of the LoopBack SDK Builder, it does not consider or keeps any history of its parent module `loopback-sdk-angular`
 
+## Release 2.4.0
+
+Method Generation Fixes
+Fixed Angular 10 Fixes
 ## Release 2.1.2
 
 NGRX HotFixes.
