@@ -1,4 +1,4 @@
-/* tslint:disable */
+/* eslint-disable */
 import * as SocketIO from 'nativescript-socket.io';
 /**
 * @author Jonathan Casarrubias <twitter:@johncasarrubias> <github:@mean-expert-official>

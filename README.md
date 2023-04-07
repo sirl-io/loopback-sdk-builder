@@ -17,7 +17,7 @@ $ npm install --save-dev @sirl-io/loopback-sdk-builder
 
 # Documentation
 
-[LINK TO WIKI DOCUMENTATION](https://github.com/sirl-io-official/loopback-sdk-builder/wiki)
+[LINK TO WIKI DOCUMENTATION](https://github.com/sirl-io/loopback-sdk-builder/wiki)
 
 # Contribute
 Most of the PRs fixing any reported issue or adding a new functionality are being accepted.

@@ -1,5 +1,5 @@
-/* tslint:disable */
-import { merge, Observable, Subject } from 'rxjs';
+/* eslint-disable */
+import { merge, Observable, Subject, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { LoopBackFilter, StatFilter } from './index';
 import { SocketConnection } from '../sockets/socket.connections';
@@ -304,11 +304,11 @@ export class FireLoopRef<T> {
       }
     });
     if (event.match('dispose')) {
-      setTimeout(() => subject.next());
+      setTimeout(() => subject.next(void 0));
     }
     // This event listener will be wiped within socket.connections
     this.socket.sharedObservables.sharedOnDisconnect.subscribe(() => subject.complete());
-    return subject.asObservable().pipe(catchError((error: any) => Observable.throw(error)));
+    return subject.asObservable().pipe(catchError((error: any) => throwError(()=>error)));
   }
   /**
   * @method buildId

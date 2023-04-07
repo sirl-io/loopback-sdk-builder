@@ -1,4 +1,4 @@
-/* tslint:disable:no-unused-variable */
+/* eslint-disable  :no-unused-variable */
 
 import { TestBed, async, inject } from '@angular/core/testing';
 import { SDKBrowserModule, LoopBackConfig } from './shared/sdk';

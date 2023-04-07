@@ -1,4 +1,4 @@
-/* tslint:disable */
+/* eslint-disable */
 import { Injectable, Inject, NgZone } from '@angular/core';
 import { SocketDriver } from './socket.driver';
 import { AccessToken } from '../models';
@@ -89,7 +89,7 @@ export class SocketConnection {
       // Listen for authentication
       this.on('authenticated', () => {
         this.authenticated = true;
-        this.subjects.onAuthenticated.next();
+        this.subjects.onAuthenticated.next(void 0);
         this.heartbeater();
       })
       // Listen for authentication

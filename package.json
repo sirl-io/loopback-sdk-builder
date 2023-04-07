@@ -1,6 +1,6 @@
 {
   "name": "@sirl-io/loopback-sdk-builder",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "Tool for auto-generating Software Development Kits (SDKs) for LoopBack",
   "bin": {
     "lb-sdk": "bin/lb-sdk"
@@ -37,6 +37,11 @@
     "url": "https://sirl.io"
   },
   "contributors": [
+    {
+      "name": "Bart Shappee",
+      "email": "bart.shappee@sirl.io",
+      "url": "https://sirl.io"
+    },
     {
       "name": "Jonathan Casarrubias",
       "email": "jcasarrubias@mean.expert",

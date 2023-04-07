@@ -22,6 +22,7 @@
     "@mean-expert/loopback-sdk-builder": "file:../..",
     "@mean-expert/loopback-stats-mixin": "^1.2.2-2",
     "@mean-expert/model": "^1.0.9",
+    "@sirl-io/loopback-sdk-builder": "file:../..",
     "@types/mocha": "^2.2.41",
     "@types/node": "^8.0.14",
     "chai": "^4.1.0",

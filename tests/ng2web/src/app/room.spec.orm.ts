@@ -1,4 +1,4 @@
-/* tslint:disable:no-unused-variable */
+/* eslint-disable  :no-unused-variable */
 import 'rxjs/add/operator/auditTime';
 import 'rxjs/add/operator/take';
 import { TestBed, async, inject } from '@angular/core/testing';
